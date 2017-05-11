@@ -1,0 +1,88 @@
+/* start my framework*/
+.big{
+    height: 4000px;
+}
+.upper{
+    text-transform: uppercase;
+}
+.center{
+    text-align: center;
+}
+.main-color{
+    color:#FF5E00;
+}
+.back-color{
+    background-color: #FF5E00;
+}
+.scrolled{
+    background-color: rgba(0,0,0,0.8) !important;
+}
+.butt{
+        background: transparent;
+    padding: 7px 10px;
+    border: 2px solid #fff;
+    color:#fff;
+}
+.butt:hover{
+    background-color:#FF5E00;
+    transition-timing-function: ease-out;
+    transition-timing-function: ease-in;
+    transition: 1s;
+}
+/* end my framework*/
+/*******************************************************/
+.navbar{
+    margin:0 !important;
+}
+
+/* start my heading section*/
+.header{
+    margin:0 auto;
+    position:relative;
+    /*height:300px;*/
+    background: url(../img/back.jpg) ;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height:100vh;
+}
+.header .overlay{
+    position: absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.7);
+}
+.header .container{
+    padding: 100px ;
+}
+.header .container .row .axith{
+    font-size: 65px;
+    text-transform:uppercase;
+    color: white;
+    
+}
+.header .container .row .axitp{
+    font-size :30px;
+    text-transform:uppercase;
+    color:white;
+}
+.header .container .row .axitdesc{
+    color:#999999;
+    margin: 22px 0px;
+}
+
+.border{
+    border-bottom: 2px solid white;
+    width: 55px;
+}
+.panel{
+    width:300px;
+   margin-left: 100px;
+}
+.panel .panel-footer{
+    background-color: #FF5E00;
+}
+/* end of heading section*/

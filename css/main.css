@@ -187,14 +187,15 @@
 
 /* start tab section*/
 .tab-section{
-    margin:25vh;
+    margin:15vh 25vh;
+    
 }
 .tab-section .box{
     width:100px;
-    height:150px;
+    height:100px;
     background-color: #333333;
     text-align: center;
-    line-height:150px;
+    line-height:100px;
     color:white;
 }
 .tab-section .box:hover{
@@ -208,10 +209,34 @@
 }
 .tab-section .tog p{
     line-height: 1.8;
-    
 }
 
-
-
-
 /* end tab section*/
+
+
+/* start of sublist section*/
+
+.sub-list{
+  background-color:#ece6e6;
+  padding:30px;
+}
+.ico{
+    width: 50px;
+    height: 50px;
+    line-height: 100px;
+    line-height: 50px !important;
+    text-align: center;
+    color: #FF5E00;
+    border-radius: 50%;
+    border: 1px solid #FF5E00;
+    margin-right: 20px;
+}
+.sub-list .contain .row img{
+    width: 422px;
+    text-align: center;
+    margin: 30px 15px auto;
+    box-shadow: 5px 0px 30px ;
+    height:360px;
+}
+
+/* end of sublist section*/

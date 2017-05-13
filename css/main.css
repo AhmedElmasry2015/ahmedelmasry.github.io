@@ -109,13 +109,13 @@
     box-shadow: -2px -5px 43px #000;
 }
 
-.fa{
+.social-media .fa{
     margin-top: 15px;
     color:#222;
     font-size: 30px;
     margin-left: 7.2%
 }
-.fa-facebook:hover{
+.social-media .fa-facebook:hover{
     width:100px;
     height:100px;
     line-height: 100px;
@@ -124,7 +124,7 @@
     background-color:#FF5E00;
     border-radius: 50%;
 }
-.fa-github:hover{
+ .social-media .fa-github:hover{
     
     width:100px;
     height:100px;
@@ -134,7 +134,7 @@
     background-color:#FF5E00;
     border-radius: 50%;
 }
-.fa-google:hover{
+.social-media .fa-google:hover{
     
     width:100px;
     height:100px;
@@ -144,7 +144,7 @@
     background-color:#FF5E00;
     border-radius: 50%;
 }
-.fa-stack-overflow:hover{
+.social-media .fa-stack-overflow:hover{
     width:100px;
     height:100px;
     line-height: 100px;
@@ -153,7 +153,7 @@
     background-color:#FF5E00;
     border-radius: 50%;
 }
-.fa-twitter:hover{
+.social-media .fa-twitter:hover{
     width:100px;
     height:100px;
     line-height: 100px;
@@ -162,7 +162,7 @@
     background-color:#FF5E00;
     border-radius: 50%;
 }
-.fa-youtube:hover{
+.social-media .fa-youtube:hover{
     width:100px;
     height:100px;
     line-height: 100px;
@@ -171,7 +171,7 @@
     background-color:#FF5E00;
     border-radius: 50%;
 }
-.fa-yahoo:hover{
+.social-media .fa-yahoo:hover{
     width:100px;
     height:100px;
     line-height: 100px;
@@ -255,7 +255,130 @@
 
 
 /* start of pricing section*/
+.price-section{
+    
+  background-color:#ece6e6;
+  padding:30px;
+}
+.price-section .row .pbox{
+    width:232px;
+    height:178px;
+    text-align: center;
+    background-color:#211f1f;
+    color:#fff;
+    margin:70px auto 0px ;
+        box-shadow: 0px 12px 4px #ff5e00;
+       
+}
+.price-section .row .pbox .pp{
+    padding-top:5px;
+}
+.price-section .row .pb{
+    border-bottom: 1px solid #FFf;
+    width: 232px;
+    margin: 16px;
+    margin: 20px auto;
+}
+.pnum{
+    font-size: 50px;
+}
+.price-section .row .pbox .pf{
+    color:#adadad;
+    font-family: italic;
+}
+.pf:hover{
+    background-color:#ff5e00;
+}
+.most-popular{
+    background-color:#ff5e00;
+    color:#fff;
+    padding-bottom: 20px;
+    line-height:3;
+}
+.price-section .row ul {
+    text-decoration: none;
+    margin-top:40px;
+    background-color:#fff;
+  
 
-
+}
+.price-section .row ul li{
+    margin: 15px  0px auto;
+    padding-left: 31px;
+    font-family:sans-serif;
+}
 
 /* end of price section*/
+
+
+
+/* what they say*/
+.what-say{
+    background-color:#fff;
+  padding:30px;
+}
+/* end what they say*/
+
+
+
+/* start axure section*/
+.axure{
+    margin:0 auto;
+    position:relative;
+    
+    background: url(../img/back.jpg) ;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height:55vh;
+    color:#fff;
+}
+.axure .overlay{
+    padding:50px ;
+    position: absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.7);
+}
+.axure .row .b{
+    border-bottom: 1px solid #FFf;
+    width: 232px;
+    margin: 16px;
+    margin: 20px auto;
+}
+/* end axure section*/
+
+
+/* start contact us section*/
+.contact{
+    padding:70px 0px;
+}
+.contact .row .b{
+    border-bottom: 1px solid #ff5e00;
+    width: 232px;
+    margin: 16px;
+    margin: 20px auto;
+}
+.contact .bu button{
+    width:140px;
+    height:40px;
+    color:#fff;
+    background-color:#ff5e00;
+    text-align: center;
+}
+/* end contact us section*/
+
+/* fotter section*/
+.footer{
+    padding:40px 0px;
+    background-color:#000;
+}
+.footer .row  i{
+    color:#fff;
+    padding:0px 10px 0px;
+}
+
+/*end footer section*/
